@@ -20,8 +20,8 @@ RUN cmake .. \
     -DCMAKE_INSTALL_PREFIX="/opt/bitcoin/build/" \
     -DBUILD_DAEMON="ON" \
     -DBUILD_CLI="ON" \
-    -DENABLE_WALLET="ON" \
-    -DWITH_ZMQ="ON" \
+    -DENABLE_WALLET="OFF" \
+    -DWITH_ZMQ="OFF" \
     -DBUILD_GUI="OFF" \
     -DBUILD_TESTS="OFF" \
     -DBUILD_BENCH="OFF" \
